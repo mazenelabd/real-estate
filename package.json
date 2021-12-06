@@ -5,15 +5,28 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cypress": "cypress open",
+    "cypress:headless": "cypress run"
   },
   "dependencies": {
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.0",
+    "@mui/material": "^5.2.2",
+    "@sendgrid/mail": "^7.6.0",
+    "aos": "^2.3.4",
+    "framer-motion": "^5.3.3",
     "next": "12.0.5",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-toastify": "^8.1.0"
   },
   "devDependencies": {
+    "@testing-library/cypress": "^8.0.2",
+    "cypress": "^9.1.1",
     "eslint": "7.32.0",
-    "eslint-config-next": "12.0.5"
+    "eslint-config-next": "12.0.5",
+    "eslint-plugin": "^1.0.1"
   }
 }
