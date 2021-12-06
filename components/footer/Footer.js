@@ -1,6 +1,6 @@
 import { Container, Grid, Typography } from '@mui/material'
 import { Box } from '@mui/system'
-import RoomIcon from '@mui/icons-material/room'
+import RoomIcon from '@mui/icons-material/Room'
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone'
 import EmailIcon from '@mui/icons-material/Email'
 import CustomLink from './CustomLink'
