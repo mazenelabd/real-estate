@@ -6,29 +6,6 @@ import RoomOutlinedIcon from '@mui/icons-material/RoomOutlined'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
-const PROJECTS = [
-  {
-    image: '1',
-    title: 'Vintage Villa',
-    address: '2715 Ash Dr. San Jose, Dubai',
-  },
-  {
-    image: '2',
-    title: 'Tonga Villa',
-    address: '1901 Thornridge Cir. Shiloh 81063',
-  },
-  {
-    image: '3',
-    title: 'Penthouse',
-    address: '2464 Royal Ln. Mesa, 45463',
-  },
-  {
-    image: '4',
-    title: 'Smart city projecct',
-    address: '2715 Ash Dr. San Jose, Dubai',
-  },
-]
-
 const CardItem = styled(Paper)(({ theme }) => ({
   position: 'absolute',
   bottom: '-40px',
@@ -39,7 +16,7 @@ const CardItem = styled(Paper)(({ theme }) => ({
   px: 0.5,
 }))
 
-export default function ProjectCards() {
+export default function ProjectCards({ projects }) {
   const [value, setValue] = useState(0)
 
   useEffect(() => {
@@ -60,14 +37,14 @@ export default function ProjectCards() {
       aria-label='projects'
       data-aos='fade-right'
     >
-      {PROJECTS.map((project) => (
+      {projects.map((project) => (
         <Tab
-          key={project.image}
+          key={project.id}
           disabled
           icon={
             <>
               <Image
-                src={`/images/projects/${project.image}.png`}
+                src={`/images/projects/${project.image}`}
                 width={350}
                 height={450}
                 alt={project.title}
