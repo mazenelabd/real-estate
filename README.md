@@ -31,3 +31,5 @@ or to run testing without an interactive browser use:
 ```bash
 npm run cypress:headless
 ```
+### The Strapi API
+https://github.com/mazenelabd/real-estate-projects-api
