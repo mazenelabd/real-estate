@@ -36,7 +36,7 @@ export default function Testimonial() {
         Turpis facilisis tempor pulvinar in lobortis ornare magna.
       </Typography>
       <Grid container alignItems='center' my={7} spacing={2}>
-        <Grid item xs={12} sm={6} lg={5} data-aos='fade-left'>
+        <Grid item xs={12} sm={6} lg={5} data-aos='fade-right'>
           <Image
             src={'/images/testimonial.png'}
             width={445}

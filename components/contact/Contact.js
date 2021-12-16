@@ -62,7 +62,7 @@ export default function Contact() {
     <Container maxWidth='lg' id='contact'>
       <ToastContainer />
       <Grid container alignItems='center' my={15} spacing={2}>
-        <Grid item xs={12} sm={6} lg={5} data-aos='fade-left'>
+        <Grid item xs={12} sm={6} lg={5} data-aos='fade-right'>
           <Image
             src={'/images/contact.png'}
             width={445}

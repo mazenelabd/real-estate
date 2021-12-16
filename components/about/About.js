@@ -13,7 +13,7 @@ export default function About() {
   return (
     <Container maxWidth='lg' id='about'>
       <Grid container alignItems='center' my={15} spacing={2}>
-        <Grid item xs={12} sm={6} data-aos='fade-left'>
+        <Grid item xs={12} sm={6} data-aos='fade-right'>
           <Image
             src={'/images/about.png'}
             width={445}
